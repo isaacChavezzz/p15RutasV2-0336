@@ -12,12 +12,8 @@ class Pantalla1_0336 extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            ElevatedButton(onPressed: () {}, child: const Text("Pantalla")),
             Container(
               padding: const EdgeInsets.all(16.0),
-              decoration: BoxDecoration(
-                border: Border.all(),
-              ),
               child: const Text("Chavez Ejemplo",
                   style: TextStyle(fontSize: 34.0)),
             )
