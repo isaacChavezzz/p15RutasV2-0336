@@ -8,7 +8,7 @@ class PantallaInicial0336 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Card Container Chavez_0336'),
-        backgroundColor: Colors.red,
+        backgroundColor: Color(0xff1012a9),
       ),
       body: Center(
         child: Column(

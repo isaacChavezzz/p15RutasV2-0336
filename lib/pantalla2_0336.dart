@@ -8,26 +8,24 @@ class Pantalla2_0336 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           title: const Text("Card p2 Chavez_0336"),
-          backgroundColor: Colors.deepOrange),
+          backgroundColor: Color(0xff030941)),
       body: Center(
         //  Card with size
         child: Container(
-          color: Color(0xffb09f6c),
+          color: Color(0xff0f87e8),
           width: double.infinity,
           height: 300,
           child: Card(
-            color: Color(0xffa93d3d),
+            color: Color(0xff1c1084),
             shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
             elevation: 10,
             margin: EdgeInsets.all(60),
             child: Padding(
               padding: EdgeInsets.all(26),
               child: Text(
                 'Container Card Chavez_0336',
-                style: TextStyle(
-                  fontSize: 30,
-                ),
+                style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
               ),
             ),
           ),
