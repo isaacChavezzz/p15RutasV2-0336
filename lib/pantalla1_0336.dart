@@ -7,17 +7,19 @@ class Pantalla1_0336 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text("Pantalla1_0336"),
+          title: const Text("Card p1 Chavez_0336"),
           backgroundColor: Colors.deepOrange),
       body: Center(
-        child: Column(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(16.0),
-              child: const Text("Chavez Ejemplo",
-                  style: TextStyle(fontSize: 34.0)),
-            )
-          ],
+        child: Card(
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+          elevation: 10,
+          color: Color(0xffdcb1a3),
+          child: Padding(
+            padding: EdgeInsets.all(20),
+            child: Text("Card Chavez",
+                style: TextStyle(fontSize: 30, color: Color(0xff3f1c04))),
+          ),
         ),
       ),
     );
