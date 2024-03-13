@@ -10,15 +10,16 @@ class Pantalla1_0336 extends StatelessWidget {
           title: const Text("Card p1 Chavez_0336"),
           backgroundColor: Color(0xff030941)),
       body: Center(
-        child: Card(
-          shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-          elevation: 10,
-          color: Color(0xff088ab2),
-          child: Padding(
-            padding: EdgeInsets.all(20),
-            child: Text("Card Chavez",
-                style: TextStyle(fontSize: 30, color: Color(0xff3f1c04))),
+        child: Container(
+          color: Color(0xff1a1dc6),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Pantalla 1 Chavez 0336',
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),

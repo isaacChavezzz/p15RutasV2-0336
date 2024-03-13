@@ -12,22 +12,16 @@ class Pantalla2_0336 extends StatelessWidget {
       body: Center(
         //  Card with size
         child: Container(
-          color: Color(0xff0f87e8),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Color(0xff1c1084),
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(50)),
-            elevation: 10,
-            margin: EdgeInsets.all(60),
-            child: Padding(
-              padding: EdgeInsets.all(26),
-              child: Text(
-                'Container Card Chavez_0336',
-                style: TextStyle(fontSize: 30, color: Color(0xffffffff)),
-              ),
-            ),
+          color: Color(0xff0e286e),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Pantalla 2 Chavez 0336',
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),

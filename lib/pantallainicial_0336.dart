@@ -24,6 +24,11 @@ class PantallaInicial0336 extends StatelessWidget {
                   Navigator.pushNamed(context, "/Pantalla2_0336");
                 },
                 child: const Text('ir a Pantalla2_0336')),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, "/Pantalla3_0336");
+                },
+                child: const Text('ir a Pantalla3_0336')),
           ],
         ),
       ),
